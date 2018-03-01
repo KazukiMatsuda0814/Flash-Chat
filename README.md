@@ -1,25 +1,18 @@
 # Flash-Chat
-Learn to make iOS Apps with [The App Brewery](https://www.appbrewery.co) 📱 | Project Stub | (Swift 4.0/Xcode 9) - Flash Chat App
+[The App Brewery](https://www.appbrewery.co)のThe Complete iOS Development Courseで作りました。
 
-Beginner: Download the starter project files as .zip and extract the files to your desktop.
+ログインされたユーザー同士でチャットができるアプリです。
 
-Pro: Git clone to your Xcode projects folder.
+[Firebase](https://firebase.google.com/)を使用し、ユーザー認証やデータの保存が行っています。
 
-## Podfile Configuration
-```
-post_install do |installer|
-    installer.pods_project.targets.each do |target|
-        target.build_configurations.each do |config|
-            config.build_settings['CLANG_WARN_DOCUMENTATION_COMMENTS'] = 'NO'
-        end
-    end
-end
-```
+<img src="https://user-images.githubusercontent.com/35205886/36829759-08045aba-1d64-11e8-9376-017b5ccf2b4d.png" width="300">
+<img src="https://user-images.githubusercontent.com/35205886/36829761-08ea6474-1d64-11e8-850f-07dd408e45f8.png" width="300">
 
-## Finished App
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/Flash%20Chat.gif)
+## 使用ライブラリ
+[Firebase](https://firebase.google.com/)
+
+[SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD)
+
+[Chameleon](https://github.com/ViccAlexander/Chameleon)
 
 
-
-Copyright © The App Brewery
-# Flash-Chat
